@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "lib": ["ES2016", "DOM"],
+    "types": ["jest", "node"]
+  }
+}
