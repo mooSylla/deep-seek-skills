@@ -1,0 +1,28 @@
+{
+  "name": "deep-seek-skills",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpm jest test",
+    "build": "node build.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.1",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.5",
+    "@babel/preset-typescript": "^7.28.5",
+    "@jest/globals": "^30.3.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.7.0",
+    "babel-jest": "^30.3.0",
+    "chrome-types": "^0.1.426",
+    "esbuild": "^0.28.0",
+    "jest": "^30.3.0",
+    "jest-environment-jsdom": "^30.4.1",
+    "typescript": "^6.0.3"
+  }
+}

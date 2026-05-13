@@ -1,0 +1,23 @@
+{
+  "name": "Hello mosy",
+  "description": "First extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["build/main.js"],
+      "matches": ["https://chat.deepseek.com/*"],
+      "world": "MAIN"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["build/*.map"],
+      "matches": ["https://chat.deepseek.com/*"]
+    }
+  ]
+}
